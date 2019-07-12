@@ -9,7 +9,7 @@ import { $ } from 'protractor';
 })
 export class ApiService {
  
-  baseUrl ='http://127.0.0.1:8000/';
+  baseUrl ='https://angulardjangosample.herokuapp.com/';
   baseMovieUrl =`${this.baseUrl}api/movies/`;
   headers = new HttpHeaders({
     'Content-type':'application/json',
